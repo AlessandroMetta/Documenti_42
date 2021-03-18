@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Benvenuti nel mio sito in cui cerco di darvi una mano a capire meglio i progetti del corso 42."
+description: "Il primo sito web di descrizione dei progetti del corso 42 in lingua italiana"
 permalink: /
 ---
 
