@@ -6,7 +6,7 @@ description: "Il primo sito web di descrizione dei progetti del corso 42 in ling
 permalink: /
 ---
 <p align="center">
-  Benvenuti nel mio sito in cui cerco di darvi una mano a capire meglio i progetti del corso 42.
+  Benvenuti nel mio sito in cui cerco di darvi una mano a capire meglio i progetti del corso 42
 </p>
 
 <p align="center">
