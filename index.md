@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Benvenuti nel mio sito in cui cerco di darvi una mano a capire meglio i progetti del corso 42."
+permalink: /
+---
+
 # Documenti 42 Italiano
 
 Benvenuti nel mio sito in cui cerco di darvi una mano a capire meglio i progetti del corso 42.
