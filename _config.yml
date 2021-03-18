@@ -3,7 +3,8 @@ description: "Dove programmare è la risposta a tutto"
 
 search_enabled: true
 heading_anchors: true
-color_scheme: dark
+color_scheme: light
+logo: logo_white_small.png
 
 aux_links:
   "42docs IT on GitHub":
