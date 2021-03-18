@@ -1,12 +1,9 @@
 ---
-layout: default
-title: Home
-nav_order: 1
-description: "Il primo sito web di descrizione dei progetti del corso 42 in lingua italiana"
-permalink: /
+sort: 1
 ---
+
 <p align="center">
-  <img height="442" src="image_home.png">
+  <img height="442" src="./images/image_home.png">
 </p>
 
 <p align="justify">
