@@ -1,7 +1,3 @@
----
-sort: 1
----
-
 <p align="center">
   <img height="442" src="image_home.png">
 </p>
