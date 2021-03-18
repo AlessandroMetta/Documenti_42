@@ -1,3 +1,14 @@
-theme: jekyll-theme-cayman
+title: "42 Docs IT"
+description: "Dove programmare è la risposta a tutto"
+
+search_enabled: true
 heading_anchors: true
 color_scheme: dark
+
+aux_links:
+  "42docs IT on GitHub":
+    - "//github.com/ametta42/42Docs_IT"
+    
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-remote-theme
