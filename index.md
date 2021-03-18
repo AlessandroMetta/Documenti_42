@@ -15,10 +15,6 @@ Se per ora vedi il sito non ancora aggiornato o povero di informazioni, non ti p
 Se hai riscontrato problemi con il sito, crea una segnalazione su GitHub.
 </p>
 
-<p align="justify">
 Se vuoi conoscere meglio il metodo 42, la sua filosofia e sei interessato a prendere anche tu parte alle Piscine, ti consiglio di dare un'occhiata al [loro sito](https://42roma.it)
-</p>
 
-<p align="justify">
 Se vuoi contattarmi, questa è la mia mail: ametta@student.42roma.it
-</p>
