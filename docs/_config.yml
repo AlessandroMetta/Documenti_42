@@ -4,3 +4,18 @@ lang: en
 
 readme_index:
   with_frontmatter: true
+
+title: 42Docs IT
+lang: en
+description: Dove la programmazione è la risposta a tutto
+
+remote_theme: rundocs/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Makefile
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
