@@ -5,6 +5,9 @@ nav_order: 1
 description: "Il primo sito web di descrizione dei progetti del corso 42 in lingua italiana"
 permalink: /
 ---
+
+![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2F42roma.it%2F&psig=AOvVaw3fb77Z4qsfcN6TRWkH1EsI&ust=1616192757074000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKixvq3xuu8CFQAAAAAdAAAAABAJ)
+
 <p align="center">
   Benvenuti nel mio sito in cui cerco di darvi una mano a capire meglio i progetti del corso 42
 </p>
