@@ -6,9 +6,9 @@ description: "Il primo sito web di descrizione dei progetti del corso 42 in ling
 permalink: /
 ---
 
-# Documenti 42 Italiano
-
 Benvenuti nel mio sito in cui cerco di darvi una mano a capire meglio i progetti del corso 42.
+
+![Image](image_home.png)
 
 La filosofia della 42 è fondata sul cercare la soluzione di ogni nostro problema su i canali di informazione a noi disponibili, come il Manuale o Internet,
 ma spesso tali fonti sono in lingua inglese. Lo scopo di questa pagina è quello di analizzare e risolvere i singoli progetti, così da aiutarti nella 
