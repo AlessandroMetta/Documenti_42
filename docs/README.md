@@ -3,7 +3,7 @@ sort: 1
 ---
 
 <p align="center">
-  <img height="442" src="./images/image_home.png">
+  <img height="442" src="/images/image_home.png">
 </p>
 
 <p align="justify">
