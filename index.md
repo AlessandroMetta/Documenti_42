@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="342" src="img/42img.png">
+  <img width="342" src="img/42img.png">
 </p>
 
 <p align="justify">
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img height="242" src="img/RTFMimg.png">
+  <img width="342" src="img/RTFMimg.png">
 </p>
 
 ### La nostra Missione
