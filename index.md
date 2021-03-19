@@ -3,7 +3,7 @@
 </p>
 
 <p align="justify">
-  La filosofia della 42 è fondata sul peering e sull'autodidattica, dunque le uniche fonti sono i compagni di corso o i canale di formazione ed informazione, come il Manuale o Internet, ma spesso tali fonti sono in lingua inglese e non sono facili da comprendere. 
+  La filosofia della 42 è fondata sul peering e sull'autodidattica, dunque le uniche fonti sono i compagni di corso o i canali di formazione ed informazione, come il Manuale o Internet, ma spesso tali fonti sono in lingua inglese e non sono facili da comprendere. 
 </p>
 
 ### La nostra Missione
