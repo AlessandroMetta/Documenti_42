@@ -3,18 +3,21 @@
 </p>
 
 <p align="justify">
-La filosofia della 42 è fondata sul cercare la soluzione di ogni nostro problema su i canali di informazione a noi disponibili, come il Manuale o Internet, ma spesso tali fonti sono in lingua inglese. Lo scopo di questa pagina è quello di analizzare e risolvere i singoli progetti, così da aiutarti nella realizzazione del tuo progetto. 
+  La filosofia della 42 è fondata sul peering e sull'autodidattica, dunque le uniche fonti sono i compagni di corso o i canale di formazione ed informazione, come il Manuale o Internet, ma spesso tali fonti sono in lingua inglese e non sono facili da comprendere. 
+</p>
+
+### La nostra Missione
+<p align="justify">
+  Lo scopo di questa pagina è quello di analizzare i singoli progetti per aiutarti a risolverli.
 </p>
 
 <p align="justify">
-Se per ora vedi il sito non ancora aggiornato o povero di informazioni, non ti preoccupare, cercherò di aggiornarlo nel minor tempo possibile.
+  Il sito è in fase di sviluppo e cerchiamo di aggiornarlo quotidianamente, ma non è un lavoro semplice. Se per ora non vedi molti contenuti, non ti preoccupare, stiamo dando il massimo per darti ottimo materiale.
 </p>
 
 ### Contatti
 <p align="justify">
-Se hai riscontrato problemi con il sito, crea una segnalazione su GitHub.
+Se hai riscontrato problemi con il sito e vuoi segnalarcelo, oppure sei interessato ad un'approfondimento e vuoi che lo aggiungiamo al sito, non esitare e crea una segnalazione su GitHub.
 </p>
 
-Se vuoi conoscere meglio il metodo 42, la sua filosofia e sei interessato a prendere anche tu parte alle Piscine, ti consiglio di dare un'occhiata al [loro sito](https://42roma.it)
-
-Se vuoi contattarmi, questa è la mia mail: ametta@student.42roma.it
+Se vuoi conoscere meglio il metodo 42, la sua filosofia o se fossi interessato a prendere anche tu parte alle Piscine, ti consigliamo di dare un'occhiata al [loro sito](https://42roma.it)
