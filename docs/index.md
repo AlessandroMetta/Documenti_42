@@ -1,3 +1,3 @@
-# Seconda pagine
+# Seconda pagina
 
 Ciao come stai? Io tutto bene
