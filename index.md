@@ -1,9 +1,13 @@
 <p align="center">
-  <img height="442" src="image_home.png">
+  <img height="342" src="img/42img.png">
 </p>
 
 <p align="justify">
   La filosofia della 42 è fondata sul peering e sull'autodidattica, dunque le uniche fonti sono i compagni di corso o i canali di formazione ed informazione, come il Manuale o Internet, ma spesso tali fonti sono in lingua inglese e non sono facili da comprendere. 
+</p>
+
+<p align="center">
+  <img height="242" src="img/RTFMimg.png">
 </p>
 
 ### La nostra Missione
