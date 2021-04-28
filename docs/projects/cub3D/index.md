@@ -1,4 +1,4 @@
-[back to the home](https://ametta42.github.io/42Docs_IT)
+[back to the home](https://ametta42.github.io/42Docs_IT/)
 # cub3d
 In questo progetto viene richiesto di realizzare un gioco simile a Wolfstein 3D, di cui viene allegato nel subject un link per giocarci sul browser.
 
@@ -14,4 +14,4 @@ Il progetto é abbastaza complesso (rispetto ai precedenti progetti in cui veniv
 
 Fondamentale per lo svolginto di questo progetto é l'utilizzo della MINILIBX, una libreria creata appositamente dalla 42 su OpenGL per permetterci di creare una finestra e andarci a lavorare sopra.
 
-[back to the home](https://ametta42.github.io/42Docs_IT)
+[back to the home](https://ametta42.github.io/42Docs_IT/)
