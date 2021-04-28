@@ -1,3 +1,5 @@
+[back to the home](https://ametta42.github.io/42Docs_IT)
+
 # cub3d
 In questo progetto viene richiesto di realizzare un gioco simile a Wolfstein 3D, di cui viene allegato nel subject un link per giocarci sul browser.
 
@@ -10,3 +12,5 @@ Il progetto é abbastaza complesso (rispetto ai precedenti progetti in cui veniv
 - per prima cosa dobbiamo scrivere l'algoritmo che andrá a leggere il file .map, ne prenderá tutte le infomazioni necessarie (stabilendo se sono utilizzabili per la creazione del gioco), e infine la mappa, che anchessa dovrá essere controllata, ovvero dovrá essere circondata da muri e non avere punti di spawn di troppo o caratteri non ammessi
 - successivamente dovremo creare la finestra e iniziare la visualizzazione del videogioco. L'algoritmo che ho seguito partendo dal tutorial linkato sopra é relativamente semplice: sostanzialmente, dato che abbiamo una mappa bidimensionale formata da 0, 1 e 2, l'algoritmo piú efficente e veloce é quello definito DDA (Digital Differential Analysis), che consiste nel proiettare vari raggi, necessari per creare un'ambienete tridimensionale, trovando per ognuno il muro ad essi perpendicolare e, una volta stabilita la distanza tra il giocatore ed il muro, ricavare l'altezza da disegnare del muro.
 - infine gestire il movimento del giocatore all'interno del labirinto Fondamentale per lo svolginto di questo progetto é l'utilizzo della MINILIBX, una libreria creata appositamente dalla 42 su OpenGL per permetterci di creare una finestra e andarci a lavorare sopra.
+
+[back to the home](https://ametta42.github.io/42Docs_IT)
