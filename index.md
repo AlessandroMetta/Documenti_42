@@ -30,4 +30,4 @@ Se hai riscontrato problemi con il sito e vuoi segnalarcelo, oppure sei interess
 Se vuoi conoscere meglio il metodo 42, la sua filosofia o se fossi interessato a prendere anche tu parte alle Piscine, ti consigliamo di dare un'occhiata al [loro sito](https://42roma.it)
 
 # Tutorial ai Progetti
-### [Cub3D](https://ametta42.github.io/42Docs_IT/docs/projects/cub3D/index.md)
+### [Cub3D](https://ametta42.github.io/42Docs_IT/docs/projects/cub3D)
