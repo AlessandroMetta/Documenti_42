@@ -14,11 +14,14 @@
 
 
 ## La nostra Missione (molto modesta)
+
 <p align="justify">
   Lo scopo di questo sito è quello di analizzare i singoli progetti per aiutarti a risolverli.
 </p>
+
 ### Progetti
 #### [Cub3D](https://ametta42.github.io/42Docs_IT/docs/projects/cub3D/)
+
 <p align="justify">
   Il sito è in fase di sviluppo e cerchiamo di aggiornarlo quotidianamente, ma non è un lavoro semplice. Se per ora non vedi molti contenuti, non ti preoccupare, stiamo dando il massimo per darti ottimo materiale.
 </p>
