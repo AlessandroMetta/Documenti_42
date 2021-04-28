@@ -1,5 +1,11 @@
 # cub3d
-In questo progetto viene richiesto di realizzare un gioco simile a Wolfstein 3D, di cui viene allegato nel subject un link per giocarci sul browser. Il progetto é abbastaza complesso (rispetto ai precedenti progetti in cui veniva richiesto al massimo di ricreare funzioni di libreria), ecco che diventa fondamentale avere un'ottima visione d'insieme. Seguendo il [seguente tutorial](https://harm-smits.github.io/42docs/projects/cub3d.html) e leggendo il subject, si intuisce come deve essere strutturato il progetto:
+In questo progetto viene richiesto di realizzare un gioco simile a Wolfstein 3D, di cui viene allegato nel subject un link per giocarci sul browser.
+
+<p align="center">
+  <img width="342" src="img/wolf3d.png">
+</p>
+
+Il progetto é abbastaza complesso (rispetto ai precedenti progetti in cui veniva richiesto al massimo di ricreare funzioni di libreria), ecco che diventa fondamentale avere un'ottima visione d'insieme. Seguendo il [seguente tutorial](https://harm-smits.github.io/42docs/projects/cub3d.html) e leggendo il subject, si intuisce come deve essere strutturato il progetto:
 
 - per prima cosa dobbiamo scrivere l'algoritmo che andrá a leggere il file .map, ne prenderá tutte le infomazioni necessarie (stabilendo se sono utilizzabili per la creazione del gioco), e infine la mappa, che anchessa dovrá essere controllata, ovvero dovrá essere circondata da muri e non avere punti di spawn di troppo o caratteri non ammessi
 - una volta completato ció dovrermo creare la finestra e iniziare la messa a video del gioco vero e proprio. L'algoritmo che ho seguitoio partendo dal tutorial linkato sopra é relativamente semplice: sostanzialmente, dato che abbiamo una mappa bidimensionale formata da 0, 1 e 2, l'unico modo é quello di crearer un'algoritmo che, proiettando vari raggi, necessari per creare un'ambienete tridimensionale, trovare per ognuno di essi il muro ad essi perpendicolare e stabilire la distanza tra il giocatore ed il muro. Una volta fatto ció ricaviamo l'altezza del muro.
