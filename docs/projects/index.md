@@ -1,4 +1,4 @@
-#cub3d
+# cub3d
 In questo progetto viene richiesto di realizzare un gioco simile a Wolfstein 3D, di cui viene allegato nel subject un link per giocarci sul browser. Il progetto é abbastaza complesso (rispetto ai precedenti progetti in cui veniva richiesto al massimo di ricreare funzioni di libreria), ecco che diventa fondamentale avere un'ottima visione d'insieme. Seguendo il seguente tutorial e leggendo il subject, si intuisce come deve essere strutturato il progetto:
 
 - per prima cosa dobbiamo scrivere l'algoritmo che andrá a leggere il file .map, ne prenderá tutte le infomazioni necessarie (stabilendo se sono utilizzabili per la creazione del gioco), e infine la mappa, che anchessa dovrá essere controllata, ovvero dovrá essere circondata da muri e non avere punti di spawn di troppo o caratteri non ammessi
