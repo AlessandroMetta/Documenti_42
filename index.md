@@ -13,9 +13,9 @@
 </p>
 
 
-## La nostra Missione
+## La nostra Missione (molto modesta)
 <p align="justify">
-  Lo scopo di questa pagina è quello di analizzare i singoli progetti per aiutarti a risolverli.
+  Lo scopo di questo sito è quello di analizzare i singoli progetti per aiutarti a risolverli.
 </p>
 
 ### Progetti
@@ -31,6 +31,3 @@ Se hai riscontrato problemi con il sito e vuoi segnalarcelo, oppure sei interess
 </p>
 
 Se vuoi conoscere meglio il metodo 42, la sua filosofia o se fossi interessato a prendere anche tu parte alle Piscine, ti consigliamo di dare un'occhiata al [loro sito](https://42roma.it)
-
-# Tutorial ai Progetti
-### [Cub3D](https://ametta42.github.io/42Docs_IT/docs/projects/cub3D)
