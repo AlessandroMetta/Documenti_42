@@ -30,4 +30,3 @@
 </p>
 
 Se vuoi conoscere meglio il metodo 42, la sua filosofia o se fossi interessato a prendere anche tu parte alle Piscine, ti consigliamo di dare un'occhiata al [loro sito](https://42roma.it)
-<a title="Visita il sito 42RomaLUISS" href="https://42roma.it" class="nav-link apply_cta">Visita il sito 42RomaLUISS</a>
