@@ -19,7 +19,7 @@
 ### Progetti
 
 #### [Cub3D](https://AlessandroMetta.github.io/42Docs_IT/docs/projects/cub3D/)
-#### [Philosophers](https://github.com/AlessandroMetta/philosophers/blob/f5c5e0ebea003ed7893781b0cef58af0c4985e34/README.md)
+#### [Philosophers](https://github.com/AlessandroMetta/philosophers/blob/f5c5e0ebea003ed7893781b0cef58af0c4985e34/)
 <p align="justify">
   Il sito è in fase di sviluppo e cerchiamo di aggiornarlo quotidianamente, ma non è un lavoro semplice. Se per ora non vedi molti contenuti, non ti preoccupare, stiamo dando il massimo per darti ottimo materiale.
 </p>
