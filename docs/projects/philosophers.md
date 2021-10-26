@@ -8,7 +8,7 @@ nav_order: 2
 # Dining Philosophers
 
 <p align="center">
-  <img width="auto" src="imgs/philodiner.jpg">
+  <img width="auto" src="../../imgs/philodiner.jpg">
 </p>
 
 If you like me never heard about the Dining Philosophers, I suggest to read the [relative Wikipedia page](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
@@ -22,7 +22,7 @@ Every philo (in the mandatory part) has to be a thread. The thread is a part of 
 [Short introduction to thread](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/18ec1942c2da46840693efe9b51d86a8)
 
 <p align="center">
-  <img width="400" src="imgs/threadex.png">
+  <img width="400" src="../../imgs/threadex.png">
 </p>
 <p align="justify">
 But it doesn't mean that is simple: sharing variables between threads can be dangerous, since parallel execution is not actual, but the threads are executing one per time. This implies that the share variables could be modify impropely, causing errors, so is important to prioritize them. This means that when a variable is used by a thread, has to be lock, so no others can use them. Mutexes are used for this purpose.
