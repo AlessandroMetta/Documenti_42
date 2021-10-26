@@ -65,7 +65,7 @@ int	get_time(void)
 ```
 
 ## Test cases
-For Check Memory leaks, use ` leaks -atExit -- ` and Activity Monitor
+For Check Memory leaks, use `leaks -atExit --` and Activity Monitor
 
 | Input | Expected Output |
 |:----------|:-------|
