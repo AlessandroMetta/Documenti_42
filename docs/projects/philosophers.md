@@ -67,7 +67,7 @@ int	get_time(void)
 ## Test cases
 For Check Memory leaks, use ` leaks -atExit -- ` and Activity Monitor
 | Input | Expected Output |
-|----------|-------|
+|:----------|:-------|
 | 1 200 200 200 | philo 1 must take a fork and die in 210 ms |
 | 2 800 200 200 | nobody must die |
 | 5 800 200 200 | nobody must die |
