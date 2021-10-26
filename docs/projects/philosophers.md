@@ -1,3 +1,10 @@
+---
+layout: default
+title: Philosophers
+parent: Projects
+nav_order: 2
+---
+
 # Dining Philosophers
 
 <p align="center">
