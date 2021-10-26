@@ -11,7 +11,7 @@ nav_order: 2
 
 Se anche tu non hai mai sentito parlare della cena dei filosofi, ti suggerisco di leggere la [relativa pagina di Wikipedia](https://it.wikipedia.org/wiki/Problema_dei_filosofi_a_cena).
 
-## Mandatory Part
+## Parte Mandatoria
 
 La differenza tra il problema in se è l'obiettivo del progetto è la presenza dei limiti di tempo: infatti i filosofi non possono stare troppo tempo senza mangiare, e al contempo l'azione del mangiare e del dormire richiedono del tempo. Questi dati vengono immessi come argomenti del programma, dunque vanno controllati.
 La parte obbligatoria stabilisce che è essenziale che ogni filosofo sia un thread. In altre parole, il thread è una parte di codice che viene eseguita in contemporanea (o in parallelo), e in questo caso è proprio quello che fa al caso nostro, dato che dobbiamo fare in modo che più programmi eseguano lo stesso codice fino alla morte di uno di loro. Nella realtà, i thread non vengono eseguiti in contemporanea, ma viene eseguita una parte di codice di ognuno di essi alla volta.
