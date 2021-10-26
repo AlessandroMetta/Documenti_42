@@ -8,7 +8,7 @@ nav_order: 2
 # Dining Philosophers
 
 <p align="center">
-  <img width="auto" src="../../img/philodiner.jpg">
+  <img width="auto" src="../../img/philodiner.jpeg">
 </p>
 
 If you like me never heard about the Dining Philosophers, I suggest to read the [relative Wikipedia page](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
