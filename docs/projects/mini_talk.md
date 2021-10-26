@@ -1,6 +1,7 @@
 ---
 layout: default
 title: mini_talk
+nav_exclude: true
 ---
 
 
