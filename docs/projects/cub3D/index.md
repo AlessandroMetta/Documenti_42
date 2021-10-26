@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Cub3D
-nav_order: 2
-description: "cub3d project"
-permalink: /docs/projects/cub3D/
+parent: Projects
+nav_order: 1
 ---
 
 # cub3d
