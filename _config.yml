@@ -2,10 +2,6 @@ title: Documenti 42
 description: "Dove programmare è la risposta a tutto"
 remote_theme: pmarsceill/just-the-docs
 baseurl: "/42Docs_IT"
-url: "https://alessandrometta.github.io/"
-
-# Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
+url: "https://alessandrometta.github.io"
 
 color_scheme: dark
