@@ -24,14 +24,6 @@ permalink: /
   Lo scopo di questo sito è quello di analizzare i singoli progetti per aiutarti a risolverli.
 </p>
 
-### Progetti
-
-#### [Cub3D](https://AlessandroMetta.github.io/42Docs_IT/docs/projects/cub3D/)
-
-<p align="justify">
-  Il sito è in fase di sviluppo e cerchiamo di aggiornarlo quotidianamente, ma non è un lavoro semplice. Se per ora non vedi molti contenuti, non ti preoccupare, stiamo dando il massimo per darti ottimo materiale.
-</p>
-
 ### Contatti
 <p align="justify">
   Se hai riscontrato problemi con il sito e vuoi segnalarcelo, oppure sei interessato ad un'approfondimento e vuoi che lo aggiungiamo al sito, non esitare e crea una segnalazione su GitHub.
