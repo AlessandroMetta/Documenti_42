@@ -20,5 +20,3 @@ Il progetto é abbastaza complesso (rispetto ai precedenti progetti in cui veniv
 
 Fondamentale per lo svolginto di questo progetto é l'utilizzo della MINILIBX, una libreria creata appositamente dalla 42 su OpenGL per permetterci di creare una finestra e andarci a lavorare sopra. Attraverso [questo link](https://harm-smits.github.io/42docs/libs/minilibx) potete accedere alla spiegazione di
 alcune funzioni utili per la realizzazione di cub3d con relativi esercizi.
-
-[back to the home](https://ametta42.github.io/42Docs_IT/)
