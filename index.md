@@ -1,3 +1,7 @@
+# Benvenuti
+Vi diamo un caloro benvenuto in questo sito, dove cercherò di spiegarvi il mio approccio ai progetti, con consigli e approfondimenti per darvi la possibilità di capire meglio come svolgere al meglio i vostri progetti senza perdervi la parte migliore: la curiosità di imparare cose nuove.
+Il sito come puoi vedere è in fase di sviluppo, di volta in volta aggiungero nuove pagine e nuove spiegazioni.
+
 ![image](img/42img.png)
 
 La filosofia della 42 è fondata sul peering e sull'autodidattica, dunque le uniche fonti sono i compagni di corso o i canali di formazione ed informazione, come il Manuale o Internet, ma spesso tali fonti sono in lingua inglese e non sono facili da comprendere. 
