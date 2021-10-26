@@ -2,7 +2,7 @@
 layout: default
 title: philosophers
 nav_order: 2
-permalink: /docs/projects
+permalink: /docs/projects/
 ---
 
 # La cena dei filosofi
