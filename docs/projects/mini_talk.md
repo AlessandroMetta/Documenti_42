@@ -1,8 +1,9 @@
 ---
 layout: default
 title: mini_talk
-parent: Progetti
-nav_order: 4
+nav_order: 1
+permalink: /docs/projects
 ---
+
 
 # mini_talk
