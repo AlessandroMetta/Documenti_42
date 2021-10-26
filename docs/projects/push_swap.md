@@ -1,8 +1,8 @@
 ---
 layout: default
 title: push_swap
-parent: Progetti
 nav_order: 3
+permalink: /docs/projects
 ---
 
 # push_swap
