@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Description of the page."
+permalink: /
+---
+
 <p align="center">
   <img width="342" src="img/42img.png">
 </p>
