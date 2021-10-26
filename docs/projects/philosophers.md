@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Philosophers
-parent: Projects
+parent: Progetti
 nav_order: 2
 ---
 
