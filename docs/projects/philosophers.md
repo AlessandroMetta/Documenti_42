@@ -1,7 +1,6 @@
 ---
 layout: default
 title: philosophers
-nav_order: 2
 ---
 
 # La cena dei filosofi
