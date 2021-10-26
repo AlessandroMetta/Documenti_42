@@ -1,7 +1,7 @@
 title: "Documenti 42"
 description: "Dove programmare è la risposta a tutto"
 remote_theme: pmarsceill/just-the-docs
-baseurl: "/42Docs_IT"
+baseurl: "/Documenti_42/"
 url: "https://alessandrometta.github.io"
 
 color_scheme: dark
