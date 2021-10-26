@@ -1,7 +1,7 @@
 ---
 layout: default
 title: home
-
+nav_exclude: true
 ---
 
 # Benvenuti
