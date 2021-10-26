@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Cub3D
-nav_order: 1
+title: cub3D
 ---
 
 # cub3d
