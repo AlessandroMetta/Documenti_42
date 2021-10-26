@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cub3D
-parent: Projects
+parent: Progetti
 nav_order: 1
 ---
 
