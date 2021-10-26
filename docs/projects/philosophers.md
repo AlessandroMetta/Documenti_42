@@ -5,43 +5,34 @@ parent: Projects
 nav_order: 2
 ---
 
-# Dining Philosophers
+# La cena dei filosofi
 
-<p align="center">
-  <img width="auto" src="../../img/philodiner.jpeg">
-</p>
+![img](../../img/philodiner.jpeg)
 
-If you like me never heard about the Dining Philosophers, I suggest to read the [relative Wikipedia page](https://en.wikipedia.org/wiki/Dining_philosophers_problem).
+Se anche tu non hai mai sentito parlare della cena dei filosofi, ti suggerisco di leggere la [relativa pagina di Wikipedia](https://it.wikipedia.org/wiki/Problema_dei_filosofi_a_cena).
 
 ## Mandatory Part
-<p align="justify">
-The difference between the problem and the subject is the implementation of the time limit: philosophers can't stay too much without eating, the eating need a while to be done, like also sleeping. All these variables are set runtime, and has to be parsed and checked.
-Every philo (in the mandatory part) has to be a thread. The thread is a part of code execute in parallel, so that mean that we can execute code in the same time. This thing is very interesting as it allows us to take full advantage of the multithreaded technology of current processors.
-</p>
 
-[Short introduction to thread](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/18ec1942c2da46840693efe9b51d86a8)
+La differenza tra il problema in se è l'obiettivo del progetto è la presenza dei limiti di tempo: infatti i filosofi non possono stare troppo tempo senza mangiare, e al contempo l'azione del mangiare e del dormire richiedono del tempo. Questi dati vengono immessi come argomenti del programma, dunque vanno controllati.
+La parte obbligatoria stabilisce che è essenziale che ogni filosofo sia un thread. In altre parole, il thread è una parte di codice che viene eseguita in contemporanea (o in parallelo), e in questo caso è proprio quello che fa al caso nostro, dato che dobbiamo fare in modo che più programmi eseguano lo stesso codice fino alla morte di uno di loro. Nella realtà, i thread non vengono eseguiti in contemporanea, ma viene eseguita una parte di codice di ognuno di essi alla volta.
 
-<p align="center">
-  <img width="400" src="../../img/threadex.png">
-</p>
-<p align="justify">
-But it doesn't mean that is simple: sharing variables between threads can be dangerous, since parallel execution is not actual, but the threads are executing one per time. This implies that the share variables could be modify impropely, causing errors, so is important to prioritize them. This means that when a variable is used by a thread, has to be lock, so no others can use them. Mutexes are used for this purpose.
-</p>
+[breve introduzione ai thread(in inglese)](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/18ec1942c2da46840693efe9b51d86a8)
 
-[Problems with Sharing Variables to Multiple Threads](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/18ec1942c2da46840693efe9b51ea1a2)   
-[Using Mutexes](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/18ec1942c2da46840693efe9b51eabf6)
+![img](../../img/threadex.png)
 
-## Bonus Part
+Questo nuovo oggetto genera un problema non indifferente: infatti, dato che i thread lavorano spesso sulle stesse variabili, potrebbe capitare che un thread acceda e modifichi il valore di una variabile in maniera impropria, andando a creare ciò che viene definito il [race condition](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/18ec1942c2da46840693efe9b51ea1a2). In nostro supporto vengono le mutex, delle variabili che bloccano l'utilizzo di una determinata variabile quando essa viene utilizzata da un thread.
 
-<p align="justify">
-In the bonus part, the philosophers are supposed to be created like processes: this mean that they are not part of the same program, so mutexes are unuseful. Fo this comes the semaphores, a mutex like variable that gives us the possibilities to prioritize the use of variables. 
-</p>
+[utilizzo delle mutexes](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/18ec1942c2da46840693efe9b51eabf6)
 
-[Introduction to Semaphores](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/v9l3sqtpft:1609091934815)
+## Parte Bonus
 
-## Some advices
-- you have to know that `exit()` is forbidden in the Mandatory Part;
-- the `usleep()` is deprecate by The Manual, so you have to implement a "checker" to make it works as we want.
+Nella parte bonus, i filosofi devono essere processi, ovvero come dei programmi a se stanti che non si parlano tra loro. Ecco che la mutex non ci è più d'aiuto, ma esistono i semafori, che similmente bloccano l'esecuzione di un processo se non è possibile accedervi, ma è da immaginare più come un contenitore che se è pieno, da la possibilità ad un processo di eseguire il codice, altrimenti no.
+
+[introduzione ai semafori](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/v9l3sqtpft:1609091934815)
+
+## Alcuni consigli
+- non è possibile utilizzare la funzione `exit()` nella parte obbligatoria;
+- la funzione `usleep()` è obsolete da Manuale, quindi sarà tua premura implementare una funzione che effettivamente aspetti che trascorra il tempo necessario per il compimento di un'azione.
 ```
 void	ft_usleep(long int time_in_ms)
 {
@@ -53,7 +44,7 @@ void	ft_usleep(long int time_in_ms)
 		usleep(time_in_ms / 10);
 }
 ```
-- also the `gettimeoftheday()` has to be implemented for give us the millisecond result
+- anche la funzione `gettimeoftheday()` deve essere implementata così che ritorni il tempo in millisecondi:
 ```
 int	get_time(void)
 {
@@ -64,22 +55,22 @@ int	get_time(void)
 }
 ```
 
-## Test cases
-For Check Memory leaks, use `leaks -atExit --` and Activity Monitor
+## Casi per test
+Molto importante controllare che il programma non lasci memoria allocata anteponendo al esecuzione del programma e dei suoi parametri `leaks -atExit --` oppure controllando dall'applicazione Monitoraggio Attivià (Activity Monitor)
 
-| Input | Expected Output |
+| dati in ingresso | risultato aspettato Output |
 |:----------|:-------|
-| 1 200 200 200 | philo 1 must take a fork and die in 210 ms |
-| 2 800 200 200 | nobody must die |
-| 5 800 200 200 | nobody must die |
-| 5 800 200 200 7 | the simulation must stop when every philo eat at least 7 times |
-| 5 500 200 200 7 | a philo must die before stopping the simulation |
-| 4 410 200 200 | nobody must die |
-| 4 310 200 200 | one philo must die |
-| 4 500 200 1.2 | invalid argument |
-| 4 0 200 200 | invalid argument |
-| 4 -500 200 200 | invalid argument |
-| 4 500 200 2147483647 | a philo must die in 510 ms |
-| 4 2147483647 200 200 | nobody must die |
-| 4 214748364732 200 200 | invalid argument|
-| 4 200 210 200 | one philo must die, the message must be printed in 210 ms |
+| 1 200 200 200 | il filososo 1 deve prendere una forketta e morire dopo 210 ms |
+| 2 800 200 200 | nessuno deve morire |
+| 5 800 200 200 | nessuno deve morire |
+| 5 800 200 200 7 | la simulazione deve fermarsi quando tutti i filosofi hanno mangiato 7 volte |
+| 5 500 200 200 7 | un filosofo deve morire prima che si fermi la simulazione |
+| 4 410 200 200 | nessuno deve morire |
+| 4 310 200 200 | un filosofo deve morire |
+| 4 500 200 1.2 | paramentri non validi |
+| 4 0 200 200 | paramentri non validi |
+| 4 -500 200 200 | paramentri non validi |
+| 4 500 200 2147483647 | un filosofo deve morire dopo 510 ms |
+| 4 2147483647 200 200 | nessuno deve morire |
+| 4 214748364732 200 200 | paramentri non validi |
+| 4 200 210 200 | un filosofo deve morire e il messaggio apparire dopo 210 ms |
