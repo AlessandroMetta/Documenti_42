@@ -1,4 +1,11 @@
-[back to the home](https://ametta42.github.io/42Docs_IT/)
+---
+layout: default
+title: Cub3D
+nav_order: 2
+description: "cub3d project"
+permalink: /docs/projects/cub3D/
+---
+
 # cub3d
 In questo progetto viene richiesto di realizzare un gioco simile a Wolfstein 3D, di cui viene allegato nel subject un link per giocarci sul browser.
 
