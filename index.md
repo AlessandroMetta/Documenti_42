@@ -1,11 +1,3 @@
----
-layout: default
-title: Home
-nav_order: 1
-description: "Description of the page."
-permalink: /
----
-
 ![image](img/42img.png)
 
 La filosofia della 42 è fondata sul peering e sull'autodidattica, dunque le uniche fonti sono i compagni di corso o i canali di formazione ed informazione, come il Manuale o Internet, ma spesso tali fonti sono in lingua inglese e non sono facili da comprendere. 
