@@ -1,8 +1,9 @@
 ---
 layout: default
 title: CPP
-nav_order: 3
+parent: Projects
 has_children: true
+nav_order: 3
 permalink: /docs/projects
 ---
 
