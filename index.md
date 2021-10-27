@@ -5,7 +5,7 @@ nav_exclude: true
 ---
 
 # Benvenuti
-Vi diamo un caloroso benvenuto in questo sito, dove cercherò di spiegarvi il mio approccio ai progetti, con consigli e approfondimenti per darti la possibilità di capire meglio come svolgere al meglio i tuoi progetti senza perdervi la parte migliore: la curiosità di imparare cose nuove.
+E' un piacere per me darti il benevenuto in questo sito, dove cercherò di spiegarvi come ho approcciato i progetti e tramite consigli e approfondimenti  darti la possibilità di capire meglio come svolgere al meglio i tuoi progetti senza perdervi la parte migliore: la curiosità di imparare cose nuove.
 
 Il sito come puoi vedere è in fase di sviluppo, di volta in volta aggiungero nuove pagine e nuove spiegazioni.
 
