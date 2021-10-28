@@ -16,7 +16,7 @@ font:
   global:
     # external: true will load this font family from host.
     external: true
-    family: Roboto
+    family: 'Zen Kaku Gothic Antique'
     style: sans-serif
     size: 14
     
