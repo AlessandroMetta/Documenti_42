@@ -25,7 +25,7 @@ In the end, we want to overload the operator << to redirect to the output a spec
 - the overload of you operator must be related to the natural semantic of this operator, in sense to not overload operator to another operator or operation that has not sense.
 - JUST DON'T DO IT! Use overload only when is necessary, not because you find it cool.
 
-# canonical form
+# Canonical form
 
 It's a way to build basic classes to make sure we have a reasonable and identical interface over all our project. From there anyone who read your source code or even yourself wold be sure that there are a certain number of function available in all your classes allowing  for uniform process.
 We would consider a class canonical when have at least:
