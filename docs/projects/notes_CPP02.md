@@ -44,6 +44,6 @@ We would consider a class canonical when have at least:
 
 This four element will allow your class to be called canonical.
 
-From now on, it's mandatory write you classes in the canonical form! If it's not specified by subject, it will considered mistake.
+**From now on, it's mandatory write you classes in the canonical form! If it's not specified by subject, it will considered mistake.**
 
 It' also very appreciable (not mandatory) to be able to serialize your class into a string, so think about overload the << operator to print directly the value we are interested in.
