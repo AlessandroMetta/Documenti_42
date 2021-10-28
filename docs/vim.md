@@ -18,6 +18,8 @@ Per digitare un'impostazione, premere ESC e in seguito alla scrittura dell'impos
 | `:E` | esplora tra i file |
 | `:Ve` | apri verticalmente una tab di esplora |
 
+Personalmente ti consiglio di copiare i conteuto di [questo file](https://github.com/UmbertoSavoia/vim/blob/main/vimrc), contenente queste ed altre impostazioni molto utili, ed aggiungerlo al tuo file .vimrc situato nella tua root di sistema
+
 ## Comandi essenziali di Vim
 Per eseguire un comando, premere ESC
 
