@@ -30,4 +30,5 @@ Per eseguire un comando, premere ESC
 | `o/O` | inserisci una nuova riga (sotto o sopra) |
 | `dd` | elimina la linea corrente |
 | `yy` | copia la linea corrente |
+| `p/P` | incolla nella linea successiva/precedente |
 | `u/ctrl+R` | torna indietro/vai avanti |
