@@ -3,6 +3,6 @@ description: Dove programmare è la risposta a tutto
 author: Alessandro Metta
 baseurl: "/Documenti_42/"
 url: "https://alessandrometta.github.io"
-
+font_size: 15
 remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
