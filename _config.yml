@@ -30,15 +30,18 @@ font:
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: 'Zen Kaku Gothic Antique'
+    style: sans-serif
+    size: 15
 
   # Font settings for Logo
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
   logo:
     external: true
-    family:
-    size:
+    family: 'Zen Kaku Gothic Antique'
+    style: sans-serif
+    size: 15
 
   # Font settings for <code> and code blocks.
   codes:
