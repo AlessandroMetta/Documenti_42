@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Impostazioni e comandi essenziali di Vim 
+title: Vim 
 ---
 
 ## Impostazioni essenziali di Vim
