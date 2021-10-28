@@ -1,7 +1,30 @@
 title: Documenti 42
 description: Dove programmare è la risposta a tutto
+author: Alessandro Metta
 baseurl: "/Documenti_42/"
 url: "https://alessandrometta.github.io"
+date_format: '%Y-%m-%d'
+
+
+plugins:
+ - jemoji
+ - jekyll-sitemap
+ - jekyll-feed
+ 
+menu:
+  home: /
+  
+menu_icons:
+  enable: true
+  #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
+  home: home
+  about: user
+  categories: th
+  schedule: calendar
+  tags: tags
+  archives: archive
+  sitemap: sitemap
+  commonweal: heartbeat
 
 font:
   enable: true
@@ -45,6 +68,30 @@ font:
     external: true
     family:
     size:
+ 
+sidebar:
+  # Sidebar Position, available value: left | right
+  position: left
+  #position: right
 
-remote_theme: pmarsceill/just-the-docs
+  # Sidebar Display, available value:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  Totally remove sidebar including sidebar toggle.
+  display: post
+  #display: always
+  #display: hide
+  #display: remove
+
+  # Sidebar offset from top menubar in pixels.
+  offset: 12
+  offset_float: 0
+
+  # Back to top in sidebar
+  b2t: false
+
+  # Scroll percent label in b2t button
+  scrollpercent: false
+  
 color_scheme: dark
