@@ -1,4 +1,4 @@
-# function overloding
+# Function Overloding
 
 Define many function with the same name but with different parameters.
 Simply define more function but with different parameter.
