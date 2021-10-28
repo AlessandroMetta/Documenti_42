@@ -9,11 +9,11 @@ E' un piacere per me darti il benevenuto in questo sito, dove cercherò di spieg
 
 Il sito come puoi vedere è in fase di sviluppo, di volta in volta aggiungero nuove pagine e nuove spiegazioni.
 
-![image](img/42img.png)
+![image](imgs/42img.png)
 
 La filosofia della 42 è fondata sul peering e sull'autodidattica, dunque le uniche fonti sono i compagni di corso o i canali di formazione ed informazione, come il Manuale o Internet, ma spesso tali fonti sono in lingua inglese e non sono facili da comprendere. 
 
-![image](img/RTFMimg.png)
+![image](imgs/RTFMimg.png)
 
 ## La nostra Missione (molto modesta)
 

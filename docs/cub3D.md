@@ -6,7 +6,7 @@ title: cub3D
 # cub3d
 In questo progetto viene richiesto di realizzare un gioco simile a Wolfstein 3D, di cui viene allegato nel subject un link per giocarci sul browser.
 
-![img](../../img/wolf3d.png)
+![img](../../imgs/wolf3d.png)
 
 Il progetto è molto articolato, ecco che diventa fondamentale avere un'ottima visione d'insieme. Seguendo il [seguente tutorial](https://harm-smits.github.io/42docs/projects/cub3d.html) e leggendo il subject, si intuisce come deve essere strutturato il progetto:
 
