@@ -5,10 +5,11 @@ Simply define more function but with different parameter.
 
 # Operator overload
 
-	some vocabulary
-	1 + 1 is INFIX notation, because the plus operator is between the two operands;
-	+ 1 1 is PREFIX notation, the operator is before the two operands, is also know as FUNCTIONAL notation;
-	1 1 + is POSTFIX notation, the operator is after the two operands.
+some vocabulary
+1 + 1 is INFIX notation, because the plus operator is between the two operands;
++ 1 1 is PREFIX notation, the operator is before the two operands, is also know as FUNCTIONAL notation;
+1 1 + is POSTFIX notation, the operator is after the two operands.
+
 In this video we'll understand how overload an operator:
 	Class_name	operator+(attributes)
 an overload is composed by the keyword operator follow by the operator which we want to overload, and then the attributes.
