@@ -1,6 +1,6 @@
 ---
 layout: default
-title: cub3D
+title: vim
 ---
 
 Comandi di Vim essenziali
