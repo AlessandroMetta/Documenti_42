@@ -33,3 +33,4 @@ Per eseguire un comando, premere ESC
 | `p/P` | incolla nella linea successiva/precedente |
 | `u/ctrl+R` | torna indietro/vai avanti |
 | `gg/G` | muoviti all'inzio/fine del file |
+| `ctrl+u/ctrl+d` | muoviti di 25 righe piu' avanti/indietro |
