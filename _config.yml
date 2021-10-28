@@ -6,3 +6,4 @@ url: "https://alessandrometta.github.io"
 
 remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
+nav_sort: case_insensitive
