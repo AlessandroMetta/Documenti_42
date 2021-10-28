@@ -70,7 +70,7 @@ ft = &Sample::bar;
 // in this case I call the function pointed by ft of the heap intanciated instance
 ```
 ## ex06
-The aim of this project is to understand the usage of the switch case, a new control statement.
+The aim of this exercise is to understand the usage of the switch case, a new control statement.
 ```
 switch (expression)
 {
