@@ -1,6 +1,6 @@
 ---
 layout: default
-title: mini_talk
+title: notes_CPP02
 nav_exclude: true
 ---
 
