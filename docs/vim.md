@@ -32,3 +32,4 @@ Per eseguire un comando, premere ESC
 | `yy` | copia la linea corrente |
 | `p/P` | incolla nella linea successiva/precedente |
 | `u/ctrl+R` | torna indietro/vai avanti |
+| `gg/G` | muoviti all'inzio/fine del file |
