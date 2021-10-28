@@ -40,7 +40,10 @@ We would consider a class canonical when have at least:
 - a default constructor (does not take parameter);
 - a copy constructor (take as parameter a reference of an instance of the class we are defining to make a copy of these class);
 - an assign operator overload, allowing to make an assignment from an instance of this class (don't confuse the copy constructor with the assignment: with the copy constructor we do have a new instance created, while in the assignment we only have update the current instance) (Sample & operator=(Sample const & instance));
-- a destructor. 
-it' also very appreciable (not mandatory) to be able to serialize your class into a string, so think about overload the << operator to print directly the value we are interested in.
-This four element will allow your class to be called canonical. 
+- a destructor.
+
+This four element will allow your class to be called canonical.
+
 From now on, it's mandatory write you classes in the canonical form! If it's not specified by subject, it will considered mistake.
+
+It' also very appreciable (not mandatory) to be able to serialize your class into a string, so think about overload the << operator to print directly the value we are interested in.
