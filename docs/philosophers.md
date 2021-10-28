@@ -5,7 +5,7 @@ title: philosophers
 
 # La cena dei filosofi
 
-![img](../../imgs/philodiner.jpeg)
+![img](../imgs/philodiner.jpeg)
 
 Se anche tu non hai mai sentito parlare della cena dei filosofi, ti suggerisco di leggere la [relativa pagina di Wikipedia](https://it.wikipedia.org/wiki/Problema_dei_filosofi_a_cena).
 
@@ -17,7 +17,7 @@ La parte obbligatoria stabilisce che è essenziale che ogni filosofo sia un thre
 
 [breve introduzione ai thread(in inglese)](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/18ec1942c2da46840693efe9b51d86a8)
 
-![img](../../imgs/threadex.png)
+![img](../imgs/threadex.png)
 
 Questo nuovo oggetto genera un problema non indifferente: infatti, dato che i thread lavorano spesso sulle stesse variabili, potrebbe capitare che un thread acceda e modifichi il valore di una variabile in maniera impropria, andando a creare ciò che viene definito il [race condition](https://code-vault.net/course/6q6s9eerd0:1609007479575/lesson/18ec1942c2da46840693efe9b51ea1a2). In nostro supporto vengono le mutex, delle variabili che bloccano l'utilizzo di una determinata variabile quando essa viene utilizzata da un thread.
 
