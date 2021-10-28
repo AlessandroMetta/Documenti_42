@@ -1,8 +1,10 @@
-function overloding
+# function overloding
+
 Define many function with the same name but with different parameters.
 Simply define more function but with different parameter.
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Operator overload
+
+# Operator overload
+
 	some vocabulary
 	1 + 1 is INFIX notation, because the plus operator is between the two operands;
 	+ 1 1 is PREFIX notation, the operator is before the two operands, is also know as FUNCTIONAL notation;
@@ -16,13 +18,14 @@ An example of unary operator is the pre-incrementation or the post-incrementatio
 In this case, we use to return a reference of the class in the assignment overload because it can be assign in turn to another value(like: a = b = c =d). After assign it, the instance will be destructed immediately. 
 instead, the return of the addition overload is only an instance of the addition, because it will be assign to an value, but it isn't necessary the same of the assignment overload.
 In the end, we want to overload the operator << to redirect to the output a specific type, our integer class. This overload is not a member overload, because the << operator is a library define operator, so is not possible to overload it inside a class. the return of the output string like a reference will allow to chain different redirection.
---------------------------------------------------------------------------------------------------------------------------------------------
-Rules to follow when writing operator overload (It's easy to do bad with that):
+
+### Rules to follow when writing operator overload (It's easy to do bad with that):
 - the overload must be natural, if aa behavior of an operator is strange, that something to avoid at any cost 
 - the overload of you operator must be related to the natural semantic of this operator, in sense to not overload operator to another operator or operation that has not sense.
 - JUST DON'T DO IT! Use overload only when is necessary, not because you find it cool.
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-canonical form
+
+# canonical form
+
 It's a way to build basic classes to make sure we have a reasonable and identical interface over all our project. From there anyone who read your source code or even yourself wold be sure that there are a certain number of function available in all your classes allowing  for uniform process.
 We would consider a class canonical when have at least:
 - a default constructor (does not take parameter);
