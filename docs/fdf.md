@@ -15,3 +15,8 @@ In particolare, dato che rappresenteremo la supericie tramite punti, troveremo l
 Il subject specifica la mappa non necessitá particolari controlli, dato che il programma si dovrebbe comportare sempre alla stessa maniera.
 Una volta disegnati tutti i punti, dovremo collegarli tra loro.
 Il tutto dovrá essere 
+
+
+
+Risorse
+https://medium.com/gravitdesigner/designers-guide-to-isometric-projection-6bfd66934fc7
