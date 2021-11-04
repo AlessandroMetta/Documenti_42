@@ -19,7 +19,6 @@ Il tutto dovrá essere
 
 
 ### Risorse
-
 > https://www.programiz.com/c-programming/bitwise-operators
 > https://medium.com/gravitdesigner/designers-guide-to-isometric-projection-6bfd66934fc7
 > https://medium.com/geekculture/bresenhams-line-drawing-algorithm-2e0e953901b3
