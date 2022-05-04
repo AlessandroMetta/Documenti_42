@@ -1,7 +1,6 @@
 ---
 layout: default
 title: fdf
-nav_exclude: true
 ---
 
 
