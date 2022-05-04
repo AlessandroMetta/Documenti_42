@@ -7,7 +7,7 @@ title: push_swap
 
 ![img](../imgs/Stacks-in-C.png)
 
-Dopo aver perso le speranze nella piena comprensione della strutturazione dell'algoritmo, ho deciso di implementare l'algoritmo in modo che rispondesse al meglio alle richieste della correzzione, senza grandi pretese, andandomi a gestire i principali casi:
+Dopo aver perso le speranze nella piena comprensione della strutturazione dell'algoritmo, ho deciso di implementarlo in modo che rispondesse al meglio alle richieste della correzzione, senza grandi pretese, andandomi a gestire i casi testati richiesti dal foglio di correzione:
 - Per 3 elementi confronto in modo diretto tre numeri e poi decido le mosse per metterli nelle posizioni corrette.
 - per 5 elementi, sposto i primi due elementi nello stack_b, svolgo l'ordimaneto per 3 elementi per poi reinserire nella posizione corretta i due elementi che avevo rimosso.
 - per 100 numeri, vado ad ordinare lo stack per intervalli, nello specifico tre, ovvero seleziono l'intervallo di numeri più basso,
