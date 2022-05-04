@@ -22,4 +22,4 @@ Il progetto e' stato valutato 90/100 dai tre valutatori, dato che nella pratica 
 
 La valutazione di [Damiano](https://github.com/demian2435) è stata molto d'aiuto, perchè mi ha permesso di capire come non devessi gestire l'ordinamento con le mosse singoli, ma come il progetto fosse da impostare con le mosse doppie, perche in tal modo avrei diminuito drasticamnete il numero di mosse impiegate.
 
-[Per seguire una pagina più approfondita e sempre in italiano, ti consiglio questa implementazione](https://github.com/sisittu99/push_swap) 
+[Per seguire un'implementazione migliore, ti consiglio questa implementazione](https://github.com/sisittu99/push_swap) 
