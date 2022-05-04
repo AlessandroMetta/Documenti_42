@@ -5,6 +5,8 @@ title: push_swap
 
 # push_swap
 
+## [Per seguire un'implementazione migliore, ti consiglio questa](https://github.com/sisittu99/push_swap) 
+
 ![img](../imgs/Stacks-in-C.png)
 
 Dopo aver perso le speranze nella piena comprensione della strutturazione dell'algoritmo, ho deciso di implementarlo in modo che rispondesse al meglio alle richieste della correzzione, senza grandi pretese, andandomi a gestire i casi testati richiesti dal foglio di correzione:
@@ -21,5 +23,3 @@ Dopo aver perso le speranze nella piena comprensione della strutturazione dell'a
 Il progetto e' stato valutato 90/100 dai tre valutatori, dato che nella pratica non ha superato i test di efficienza relativi al caso dell'ordinamento dei 100 e dei 500 numeri (per precisare, ho preso ad entrambi 4 punti su 5).
 
 La valutazione di [Damiano](https://github.com/demian2435) è stata molto d'aiuto, perchè mi ha permesso di capire come non devessi gestire l'ordinamento con le mosse singoli, ma come il progetto fosse da impostare con le mosse doppie, perche in tal modo avrei diminuito drasticamnete il numero di mosse impiegate.
-
-# [Per seguire un'implementazione migliore, ti consiglio questa implementazione](https://github.com/sisittu99/push_swap) 
