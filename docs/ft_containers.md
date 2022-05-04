@@ -22,6 +22,7 @@ In questo progetto ne vedrai quattro:
 ![img](../imgs/BSTSearch.png)
 - Map e Set: due strutture dati che si poggiano su gli alberi, una struttura dati basata su nodi con tre puntatori, uno detto destro che punta ad un nodo contenente un valore inferiore al nodo attuale, e uno detto sinistro, che punta ad un nodo contenete un valore superiore al nodo attuale, infine uno detto padre che punta al nodo precedente. Tale implementazione permette la ricerca di un valore molto rapida (se bilanciato). Ogni nodo ha due valori, uno detto chiave, che viene utilizzato per la ricerca all'interno della struttura, e l'altro detto di mappatura, che é il vero valore. In altre parole il valore di chiave sta al vettore come l'indice e il valore di mappatura come al valore di quel indice. Dunque il set differisce dalla mappa in quanto nel set tali valori corrispondono. Nell'atto pratico il set è un vettore piú performante, mentre la map è un vettore dove possiamo decidere noi il tipo che avrà l'indice.
 
+![img](../imgs/iterator.png)
 Discorso a parte va fatto sugli iteratori, che non sono altro che un puntatore ad un valore della struttura dati, che se incrementato punterà al valore successivo, se decrementato punterà al valore precedente, o deferenziato, accedendo al valore a cui punta. Come ben puoi immaginare, l'implementazione di quest'ultimo è diversa per ogni contenitore.
 
 ## Link utili
