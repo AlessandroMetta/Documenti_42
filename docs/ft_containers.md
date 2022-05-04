@@ -4,7 +4,7 @@ title: ft_containers
 ---
 
 # ft_containers
-![img](../imgs/ColorfulContainerStackBig.png)
+![img](../../imgs/ColorfulContainerStackBig.png)
 L'obiettivo del progetto é quello di implementare i contenitori e alcune funzioni utili della libreria STL.
 
 Questa libreria introduce i template, oggetti che permettono la scrittura di funzioni e classi senza specificare il tipo di dato con cui andranno ad interagire.
