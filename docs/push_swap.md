@@ -5,6 +5,8 @@ title: push_swap
 
 # push_swap
 
+![img](../imgs/Stacks-in-C.png)
+
 Dopo aver letto un (bel) pò di documentazione su algoritmi di ordinamento, molti approcci di risoluzione del problema, aver riscritto diverse volte molte funzioni, ho deciso di strutturare l'algoritmo in modo che potesse rispondere al meglio alle richieste della correzzione, andandomi a gestire i principali casi:
 - Per 3 elementi confronto in modo diretto tre numeri e poi decido le mosse per metterli nelle posizioni corrette.
 - per 5 elementi, sposto i primi due elementi nello stack_b, svolgo l'ordimaneto per 3 elementi per poi reinserire nella posizione corretta i due elementi che avevo rimosso.
