@@ -12,6 +12,7 @@ Dal momento che tutti i servizi sono indipendenti dagli altri, se un servizio cr
 Per orchestrare più container si usa docker-compose.
 
 Detto ciò, perchè non usare una macchina virtuale, dal momento che è molto più diffusa?
+
 | MV | container |
 | --- | --- |
 | pessima gestione delle risorse: indipendentemente dal numero delle richieste, alla macchina dovremo allocare un certo numero di risorse, e quando queste non sono sufficienti, la macchina si può interrompere. | ottima gestione delle risorse: altamente scalabile, in caso di incremento di risore o di crash, automaticamente si creano nuovi containers |
