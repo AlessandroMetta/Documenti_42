@@ -1,6 +1,6 @@
 ---
 layout: default
-title: mini_talk
+title: Inception
 nav_exclude: true
 ---
 
