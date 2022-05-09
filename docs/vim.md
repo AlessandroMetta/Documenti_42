@@ -3,7 +3,7 @@ layout: default
 title: Vim 
 ---
 ## apertura di vim
-`vim -O file1 file2 ...` permette di aprire più file e "soplittare" la visualizzazione di essi sullo stesso terminale, molto utile quando si devono apportare a due file contemporaneamente o si vuole copiare ed incollare qualcosa velocemente. Di conseguenza, `:wa` e `:qa` salverà e chiuderà tutti i file aperti in quel momento.
+`vim -O file1 file2 ...` permette di aprire più file e "splittare" la visualizzazione di essi sullo stesso terminale, molto utile quando si devono apportare a due file contemporaneamente o si vuole copiare ed incollare qualcosa velocemente. Di conseguenza, `:wa` e `:qa` salverà e chiuderà tutti i file aperti in quel momento.
 
 ## Impostazioni essenziali di Vim
 Per digitare un'impostazione, premere ESC e in seguito alla scrittura dell'impostazione premere ENTER(invio)
