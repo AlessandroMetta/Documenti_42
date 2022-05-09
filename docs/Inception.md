@@ -25,13 +25,13 @@ I Dockerfile sono file in cui vengono specificate queste implementazioni. Vediam
 
 | keyword | significato |
 |:----------|:-------|
-| FROM <images> | viene specificato l'immagine da cui verrà costruita l'istanza. L'immagine viene prima cercata in locale, altrimenti viene scaricata da un repository, tipo Dockerhub |
-| WORKDIR <cartella> | specifica che tutto ciò che avverrà in seguito (comandi) sarà fatto nella cartella specificata |
-| ADD <filesystem> | specifica quale filesystem deve unire in fase di costtruzione |
-| CP <file/cartella> <folder> | permette la copia di file o cartelle sul container |
-| RUN <comando> | esegue i comandi nel container in fase di costruzione |
-| EXPOSE <porta> | per scopo illustrativo, mostra quale porta il container usa per comunicare con l'esterno |
-| CMD | specifica il comando che verrà eseguito dal container al momento del lancio |
+| `FROM <images>` | viene specificato l'immagine da cui verrà costruita l'istanza. L'immagine viene prima cercata in locale, altrimenti viene scaricata da un repository, tipo Dockerhub |
+| `WORKDIR <cartella>` | specifica che tutto ciò che avverrà in seguito (comandi) sarà fatto nella cartella specificata |
+| `ADD <filesystem>` | specifica quale filesystem deve unire in fase di costtruzione |
+| `CP <file/cartella> <folder>` | permette la copia di file o cartelle sul container |
+| `RUN <comando>` | esegue i comandi nel container in fase di costruzione |
+| `EXPOSE <porta>` | per scopo illustrativo, mostra quale porta il container usa per comunicare con l'esterno |
+| `CMD <comando>`  | specifica il comando che verrà eseguito dal container al momento del lancio |
   
 ### docker network
 permette la creazione di reti per connettere i container. 
