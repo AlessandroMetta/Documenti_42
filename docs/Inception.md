@@ -37,16 +37,14 @@ I Dockerfile sono file in cui vengono specificate queste implementazioni. Vediam
 permette la creazione di reti per connettere i container. 
 
 I comandi principali sono:
-  
-`docker network create <network_name>`: crea una nuova rete 
-`docker network list`: mostra le reti attive
-`docker network inspect <network_name/network_ID>`: mostra la subnet del network specificato e i container a lui connessi.
+- `docker network create <network_name>`: crea una nuova rete 
+- `docker network list`: mostra le reti attive
+- `docker network inspect <network_name/network_ID>`: mostra la subnet del network specificato e i container a lui connessi.
   
 Ecco alcuni comandi base di docker:
-  
-- 'docker run <image_name>`: crea un container a partire dall'immagine specificata
-- 'docker run --net=<network_name> <image_name>`: crea un container a partire dall'immagine specificata connettendola alla rete specificata
-- 'docker exec -it <container_name/ID> <command>`: esegue il comando all'interno del container, indirizzando lóutput sul terminale
+- `docker run <image_name>`: crea un container a partire dall'immagine specificata
+- `docker run --net=<network_name> <image_name>`: crea un container a partire dall'immagine specificata connettendola alla rete specificata
+- `docker exec -it <container_name/ID> <command>`: esegue il comando all'interno del container, indirizzando lóutput sul terminale
   
 ### Volumi
 Grazie a loro possiamo fare in modo di salvare dei dati sulla macchina ospitante e, indipendentemente da quanti container li usino o se qualcuno di essi viene terminato, non perderli.
