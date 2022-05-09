@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Inception
-nav_exclude: true
 ---
 
 # Inception
