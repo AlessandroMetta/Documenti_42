@@ -12,10 +12,10 @@ Dal momento che tutti i servizi sono indipendenti dagli altri, se un servizio cr
 Per orchestrare più container si usa docker-compose.
 
 Detto ciò, perchè non usare una macchina virtuale, dal momento che è molto più diffusa?
-| MV | container |
-|:----------|:-------|
+| MV                                                                                                                                                                                                              | container                                                                                                                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | pessima gestione delle risorse: indipendentemente dal numero delle richieste, alla macchina dovremo allocare un certo numero di risorse, e quando queste non sono sufficienti, la macchina si può interrompere. | ottima gestione delle risorse: altamente scalabile, in caso di incremento di risore o di crash, automaticamente si creano nuovi containers |
-| tempo di avviamento molto lento | tempo di avviamento immediato |
+| tempo di avviamento molto lento                                                                                                                                                                                 | tempo di avviamento immediato                                                                                                              |
 
 Si potrebbe pensare che allora la teconologia docker sia migliore come virtualizzazione, ma in quanto sicurezza non è eguagliabile alle macchine virtuali, ecco che spesso si usano uno sull'altro.
 
@@ -24,7 +24,7 @@ I container vengono costruiti a partire da dei templete, chiamati images, di cui
 I Dockerfile sono file in cui vengono specificate queste implementazioni. Vediamo un po di sintassi
 
 | keyword | significato |
-|:----------|:-------|
+|:----------------------------------|:---------------------------------------------------------------------------------------|
 | `FROM <images>` | viene specificato l'immagine da cui verrà costruita l'istanza. L'immagine viene prima cercata in locale, altrimenti viene scaricata da un repository, tipo Dockerhub |
 | `WORKDIR <cartella>` | specifica che tutto ciò che avverrà in seguito (comandi) sarà fatto nella cartella specificata |
 | `ADD <filesystem>` | specifica quale filesystem deve unire in fase di costtruzione |
